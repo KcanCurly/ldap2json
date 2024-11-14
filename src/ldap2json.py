@@ -96,8 +96,7 @@ def parseArgs():
 
     return options
 
-
-if __name__ == '__main__':
+def main():
     options = parseArgs()
 
     print("[+]======================================================")
@@ -182,3 +181,7 @@ if __name__ == '__main__':
     f.write(json_data)
     f.close()
     print("[>] Written %s bytes to %s" % (bytessize(json_data), options.jsonfile))
+
+
+if __name__ == '__main__':
+    main()
