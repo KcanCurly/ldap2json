@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="DumpSMBShare",
+    name="ldap2json",
     version="1.0.0",
     author="KcanCurly",
     description="The ldap2json script allows you to extract the whole LDAP content of a Windows domain into a JSON file..",
