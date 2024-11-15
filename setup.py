@@ -25,7 +25,8 @@ setup(
     python_requires=">=3.8",
     entry_points={
         "console_scripts": [
-            "ldap2json=src.ldap2json:main",  
+            "ldap2json=src.ldap2json:main",
+            "ldap2json-analysis=analysis.analysis:main"
         ],
     },
 )

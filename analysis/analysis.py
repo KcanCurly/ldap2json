@@ -113,7 +113,7 @@ def enhanced_print(data, base):
         data["value"],
     ))
 
-if __name__ == '__main__':
+def main():
     options = parseArgs()
 
     print("[>] Loading %s ... " % options.file, end="")
@@ -217,3 +217,7 @@ if __name__ == '__main__':
         except EOFError as e:
             print()
             running = False
+
+
+if __name__ == '__main__':
+    main()
